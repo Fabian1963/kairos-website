@@ -1118,7 +1118,8 @@ section {
 }
 
 .btn-unit-info,
-.btn-zoom {
+.btn-zoom,
+.btn-gallery {
   background-color: var(--color-primary);
   color: var(--color-dark);
   border: none;
@@ -1134,7 +1135,8 @@ section {
 }
 
 .btn-unit-info:hover,
-.btn-zoom:hover {
+.btn-zoom:hover,
+.btn-gallery:hover {
   background-color: var(--color-light);
   transform: scale(1.05);
 }
@@ -1217,6 +1219,38 @@ section {
   max-height: 400px;
   object-fit: contain;
   background-color: #000;
+}
+
+/* Gallery Modal Carousel */
+.modal-xl .carousel {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-xl .carousel-item img {
+  max-height: 70vh;
+  object-fit: contain;
+  background-color: #000;
+}
+
+.modal-xl .carousel-control-prev,
+.modal-xl .carousel-control-next {
+  width: 10%;
+  opacity: 0.8;
+}
+
+.modal-xl .carousel-control-prev:hover,
+.modal-xl .carousel-control-next:hover {
+  opacity: 1;
+}
+
+.modal-xl .carousel-control-prev-icon,
+.modal-xl .carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 1.5rem;
 }
 
 /* Lightbox */
