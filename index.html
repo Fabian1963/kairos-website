@@ -1,0 +1,1863 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kairos es una empresa de transportes de corta media y larga distancia y transporte de Escolares"
+    />
+    <meta
+      name="keywords"
+      content="kairos, transportes, distancia, escolares, viajes, omnibus, micros, colectivos, pasajeros, travel, Buenos Aires, Argentina"
+    />
+    <meta name="author" content="Kairos Transportes S.R.L." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kairos Transportes S.R.L." />
+    <meta
+      property="og:description"
+      content="Transporte de pasajeros de corta, media y larga distancia"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_AR" />
+
+    <title>Kairos Transportes S.R.L.</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#slider">
+          <img
+            src="img/logos/logo-white.png"
+            alt="Kairos Transportes"
+            class="logo-img logo-white"
+          />
+          <img
+            src="img/logos/logo-black.png"
+            alt="Kairos Transportes"
+            class="logo-img logo-dark"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#slider">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#arrives">Objetivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Unidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="slider" class="hero">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="8000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="hero-slide"
+              style="background-image: url(&quot;img/portada1.jpg&quot;)"
+            ></div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="hero-slide"
+              style="background-image: url(&quot;img/portada2.jpg&quot;)"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Dark overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 text-center">
+                <!-- Logo principal -->
+                <div class="hero-logo-container">
+                  <img
+                    src="img/logos/logo-conjunto-white-big.png"
+                    alt="Kairos Transportes"
+                    class="hero-logo"
+                  />
+                </div>
+
+                <!-- Tagline -->
+                <p class="hero-tagline">
+                  Transporte de pasajeros de corta, media y larga distancia
+                </p>
+
+                <!-- Quick Nav Buttons -->
+                <div class="hero-nav">
+                  <a href="#about" class="hero-nav-btn">
+                    <i class="bi bi-people"></i>
+                    <span>Nosotros</span>
+                  </a>
+                  <a href="#services" class="hero-nav-btn">
+                    <i class="bi bi-gear"></i>
+                    <span>Servicios</span>
+                  </a>
+                  <a href="#work" class="hero-nav-btn">
+                    <i class="bi bi-bus-front"></i>
+                    <span>Unidades</span>
+                  </a>
+                  <a href="#contact" class="hero-nav-btn">
+                    <i class="bi bi-envelope"></i>
+                    <span>Contacto</span>
+                  </a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hero-cta">
+                  <a href="#contact" class="btn btn-primary btn-lg">
+                    <i class="bi bi-chat-dots me-2"></i>Solicitar Presupuesto
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+          <a href="#about" aria-label="Scroll down">
+            <span class="scroll-text">Descubrir más</span>
+            <i class="bi bi-chevron-double-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title text-center section-title-light">
+          <span class="section-line"></span>
+          <p class="section-subtitle">Quiénes somos?</p>
+          <h2 class="section-heading">Acerca de Kairos</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-content">
+              <p>
+                A la hora de elegir con que empresa realizar tus viajes,
+                seguramente buscarás aquella que te ofrezca el mejor servicio y
+                el más económico, pero además, que te brinde la mayor seguridad.
+                Es por eso que deseamos que nos conozcas, y encuentres en
+                nosotros la tranquilidad que se necesita a la hora de viajar.
+              </p>
+              <p>
+                Somos una empresa con la más amplia experiencia en el rubro de
+                transporte de pasajeros. Nuestro objetivo consiste en brindarles
+                la mayor seguridad, tanto a nivel administrativo como en el
+                servicio ofrecido.
+              </p>
+              <p>
+                De modo que, su confianza sea respetada por nuestra empresa y
+                lograr así, un vínculo de trabajo óptimo, para que la decisión
+                de compartir con nosotros sus viajes, sea su mejor opción.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 align-items-center">
+          <div class="col-md-3 col-sm-4 mb-4 mb-md-0">
+            <img
+              src="img/logos/logo-conjunto-white.png"
+              alt="Kairos Transportes Logo"
+              class="img-fluid about-logo"
+            />
+          </div>
+          <div class="col-md-9 col-sm-8">
+            <div class="company-info">
+              <p>
+                <strong>KAIROS</strong><br />
+                De Morelli Guidetto y Cia S.R.L.<br />
+                Habilitación Nacional de Turismo CNRT Nº 9311/99<br />
+                C.U.I.T. 30-70116465-9
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center section-title-light">
+              <span class="section-line"></span>
+              <p class="section-subtitle">Que dicen nuestros Clientes?</p>
+              <h2 class="section-heading">Testimonios</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div
+              id="testimonialCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="6000"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-item text-center">
+                    <img
+                      src="img/customer-1.jpg"
+                      alt="Sonia"
+                      class="testimonial-img"
+                      loading="lazy"
+                    />
+                    <blockquote class="testimonial-quote">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p>
+                        Todo bárbaro, un viaje inolvidable. Los chóferes muy
+                        atentos y responsables.
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <h4>Sonia</h4>
+                      <span>Viaje a Villa Gesell</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-item text-center">
+                    <img
+                      src="img/customer-2.jpg"
+                      alt="Lucía y Florencia"
+                      class="testimonial-img"
+                      loading="lazy"
+                    />
+                    <blockquote class="testimonial-quote">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p>Muy recomendables sin duda se ganaron una clienta.</p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <h4>Lucía y Florencia</h4>
+                      <span>Viaje al Norte Argentino</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-item text-center">
+                    <img
+                      src="img/customer-3.jpg"
+                      alt="Franco"
+                      class="testimonial-img"
+                      loading="lazy"
+                    />
+                    <blockquote class="testimonial-quote">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p>
+                        Excelente atención, linda experiencia, Totalmente
+                        conforme!
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <h4>Franco</h4>
+                      <span>Viaje a Santiago de Chile</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-item text-center">
+                    <img
+                      src="img/customer-4.jpg"
+                      alt="Mercedes"
+                      class="testimonial-img"
+                      loading="lazy"
+                    />
+                    <blockquote class="testimonial-quote">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p>
+                        Gracias por la atención y por hacer de mi viaje un
+                        hermoso recuerdo.
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <h4>Mercedes</h4>
+                      <span>Viaje a las Sierras de Córdoba</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+
+              <!-- Carousel indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Testimonio 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Testimonio 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Testimonio 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Testimonio 4"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-4 col-lg mb-4 mb-lg-0">
+            <div class="stat-item text-center">
+              <i class="bi bi-star stat-icon"></i>
+              <h2 class="stat-value" data-target="40">0</h2>
+              <p class="stat-label">Años de Experiencia</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4 mb-lg-0">
+            <div class="stat-item text-center">
+              <i class="bi bi-globe stat-icon"></i>
+              <h2 class="stat-value" data-target="9824">0</h2>
+              <p class="stat-label">Viajes Realizados</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4 mb-lg-0">
+            <div class="stat-item text-center">
+              <i class="bi bi-graph-up-arrow stat-icon"></i>
+              <h2 class="stat-value" data-target="25161800">0</h2>
+              <p class="stat-label">Kilómetros Recorridos</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4 mb-lg-0">
+            <div class="stat-item text-center">
+              <i class="bi bi-emoji-smile stat-icon"></i>
+              <h2 class="stat-value" data-target="442080">0</h2>
+              <p class="stat-label">Pasajeros Transportados</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4 mb-lg-0">
+            <div class="stat-item text-center">
+              <i class="bi bi-heart stat-icon"></i>
+              <h2 class="stat-value" data-target="300">0</h2>
+              <p class="stat-label">Ciudades</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="section-line"></span>
+          <p class="section-subtitle">Qué hacemos?</p>
+          <h2 class="section-heading">Servicios</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-image service-icon"></i>
+                <h4>Receptivos<br /><br />Transfers</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-image service-icon-small"></i>
+                <h4>Receptivos / Transfers</h4>
+                <p>
+                  Recepción y movimiento de Contingentes, Nacionales o
+                  Extranjeros (Aeropuertos, Hoteles, Terminales Portuarias)
+                </p>
+                <p class="description-en">
+                  National or Foreign Passengers Transfer and Transporting
+                  (Airports, Hotels, Sea Ports)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-calendar-event service-icon"></i>
+                <h4>Day<br /><br />Trips</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-calendar-event service-icon-small"></i>
+                <h4>Day Trips</h4>
+                <p>
+                  Jornadas en el día, donde sea que vayas (Día de Campo, Citys,
+                  Eventos Privados o Públicos y más)
+                </p>
+                <p class="description-en">
+                  Wherever you want, there we'll go (Countryside Day, City
+                  Tours, Public or Private Events and more)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-signpost-split service-icon"></i>
+                <h4>Turismo<br /><br />Nacional</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-signpost-split service-icon-small"></i>
+                <h4>Turismo Nacional</h4>
+                <p>
+                  Viajes a todos los destinos posibles dentro del Territorio
+                  Argentino, Literalmente te llevamos de Ushuaia a La Quiaca
+                </p>
+                <p class="description-en">
+                  Every possible travel across Argentina and its majestic
+                  landscapes, from Ushuaia to La Quiaca
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-globe-americas service-icon"></i>
+                <h4>Turismo<br /><br />Internacional</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-globe-americas service-icon-small"></i>
+                <h4>Turismo Internacional</h4>
+                <p>
+                  Brasil, Chile, Bolivia, Paraguay, Perú. Cobertura y transporte
+                  a cada uno de los países limítrofes y más
+                </p>
+                <p class="description-en">
+                  Brazil, Chile, Bolivia, Paraguay, Perú. Geographic coverage
+                  and transportation to neighboring countries
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-mortarboard service-icon"></i>
+                <h4>Estudiantil<br /><br />Egresados</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-mortarboard service-icon-small"></i>
+                <h4>Estudiantil / Egresados</h4>
+                <p>
+                  Salidas Culturales, Deportivas, Viajes de Estudio, Jornadas
+                  Pedagógicas y Viajes de Egresados
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-front">
+                <i class="bi bi-people service-icon"></i>
+                <h4>Movimientos<br /><br />Masivos</h4>
+              </div>
+              <div class="service-back">
+                <i class="bi bi-people service-icon-small"></i>
+                <h4>Movimientos Masivos</h4>
+                <p>
+                  Amplia capacidad de cobertura para movimientos con grandes
+                  volúmenes de contingentes
+                </p>
+                <p class="description-en">
+                  Ample coverage capacity for big groups of people
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section id="arrives" class="objectives-section">
+      <div class="container">
+        <div class="section-title text-center section-title-light">
+          <span class="section-line"></span>
+          <p class="section-subtitle">Algunos de nuestros objetivos</p>
+          <h2 class="section-heading">Nuestros Objetivos</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="objective-card">
+              <h4 class="objective-title">Mantenimiento</h4>
+              <div class="objective-image">
+                <img
+                  src="img/mantenimiento.png"
+                  alt="Mantenimiento"
+                  loading="lazy"
+                />
+              </div>
+              <ul class="objective-features">
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Aire</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Gomería</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Chapa</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Pintura</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Mecánica</span>
+                </li>
+              </ul>
+              <p class="objective-description">
+                El mantenimiento, control y las reparaciones de cada una de
+                nuestras unidades las realizamos en talleres propios con
+                personal altamente capacitado para atender cada detalle.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="objective-card">
+              <h4 class="objective-title">Capacitaciones</h4>
+              <div class="objective-image">
+                <img
+                  src="img/capacitacion.png"
+                  alt="Capacitaciones"
+                  loading="lazy"
+                />
+              </div>
+              <ul class="objective-features">
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Conducción Eficiente</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Mantenimiento Mecánico</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Seguridad</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Administración</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Prevención</span>
+                </li>
+              </ul>
+              <p class="objective-description">
+                Tomamos como filosofía de vida la búsqueda permanentemente y la
+                auto superación, en base a la experiencia, investigación,
+                capacitación y un arduo trabajo en cada una nuestras áreas.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="objective-card">
+              <h4 class="objective-title">Seguimiento Satelital</h4>
+              <div class="objective-image">
+                <img
+                  src="img/seguimiento.png"
+                  alt="Seguimiento Satelital"
+                  loading="lazy"
+                />
+              </div>
+              <ul class="objective-features">
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Administración</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i><span>Monitoreo</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Seguimiento</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Conectividad</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i
+                  ><span>Radarización</span>
+                </li>
+              </ul>
+              <p class="objective-description">
+                Sistema Integral de Administración, Monitoreo y Seguimiento en
+                tiempo real en cada una de las unidades, lo que nos ofrece una
+                conectividad permanente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fleet Gallery Section -->
+    <section id="work">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="section-line"></span>
+          <p class="section-subtitle">Conozca nuestra flota de vehículos</p>
+          <h2 class="section-heading">Nuestras Unidades</h2>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-container text-center mb-5">
+          <button class="filter-btn active" data-filter="*">Todas</button>
+          <button class="filter-btn" data-filter="ldistancia">
+            Unidades de Larga Distancia
+          </button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="fleetGallery">
+          <!-- Unit 15 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/15.jpg"
+                  alt="Bus Interno 15"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal15"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 15</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 230 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/230.jpg"
+                  alt="Bus Interno 230"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal230"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 230</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 240 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/240.jpg"
+                  alt="Bus Interno 240"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal240"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 240</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 260 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/260.jpg"
+                  alt="Bus Interno 260"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal260"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 260</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 270 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/270.jpg"
+                  alt="Bus Interno 270"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal270"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 270</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 280 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/280.jpg"
+                  alt="Bus Interno 280"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal280"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 280</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 290 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/290.jpg"
+                  alt="Bus Interno 290"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal290"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 290</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 300 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/300.jpg"
+                  alt="Bus Interno 300"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal300"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 300</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 310 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/310.jpg"
+                  alt="Bus Interno 310"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal310"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 310</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 320 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/320.jpg"
+                  alt="Bus Interno 320"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal320"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 320</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 330 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/330.jpg"
+                  alt="Bus Interno 330"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal330"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 330</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 340 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/340.jpg"
+                  alt="Bus Interno 340"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal340"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 340</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 350 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/350.jpg"
+                  alt="Bus Interno 350"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal350"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 350</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unit 360 -->
+          <div class="gallery-item" data-category="ldistancia">
+            <div class="gallery-card">
+              <div class="gallery-image">
+                <img
+                  src="img/unidades/ldistancia/360.jpg"
+                  alt="Bus Interno 360"
+                  loading="lazy"
+                />
+                <div class="gallery-overlay">
+                  <button
+                    class="btn-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#unitModal360"
+                  >
+                    <i class="bi bi-info-circle"></i> Más Info
+                  </button>
+                </div>
+              </div>
+              <div class="gallery-caption">
+                <h5>Larga distancia</h5>
+                <p>Interno 360</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 text-center">
+            <div class="cta-content">
+              <h2>Tiene una idea o un proyecto?</h2>
+              <p class="cta-text">
+                Nuestro equipo está preparado para ayudarlo a concretar el viaje
+                que tiene en mente poniendo a su disposición toda nuestra
+                experiencia y trayectoria.
+              </p>
+              <a href="#contact" class="btn btn-cta btn-lg">
+                <i class="bi bi-envelope me-2"></i>Contáctenos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title text-center section-title-light">
+          <span class="section-line"></span>
+          <p class="section-subtitle">Mantengámonos en contacto</p>
+          <h2 class="section-heading">Contáctenos</h2>
+        </div>
+
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h3 class="contact-subtitle">Queremos saber de usted</h3>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label"
+                    >Nombre <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Su nombre"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor ingrese su nombre.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label"
+                    >Correo electrónico <span class="required">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Su email"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor ingrese un email válido.
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="subject" class="form-label">Asunto</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                  placeholder="Asunto del mensaje"
+                />
+              </div>
+
+              <div class="mb-4">
+                <label for="message" class="form-label"
+                  >Mensaje <span class="required">*</span></label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Su mensaje"
+                  required
+                ></textarea>
+                <div class="invalid-feedback">
+                  Por favor ingrese un mensaje.
+                </div>
+              </div>
+
+              <div id="formMessage" class="form-message"></div>
+
+              <div class="text-end">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  <span class="btn-text">Enviar Mensaje</span>
+                  <span class="btn-loading d-none">
+                    <span
+                      class="spinner-border spinner-border-sm me-2"
+                      role="status"
+                      aria-hidden="true"
+                    ></span>
+                    Enviando...
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-5 offset-lg-1">
+            <h3 class="contact-subtitle">Información</h3>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-house-door"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Dirección</h4>
+                  <p>
+                    Pedro José Luis Zavatarro 4045 - Santos Lugares<br />Buenos
+                    Aires | B1676BHA
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Teléfonos</h4>
+                  <p>
+                    +54 11 4750-2442 - Tele-fax<br />
+                    +54 11 4716-2727 - Atención al Cliente<br />
+                    +54 9 11 15 4067-0322 - Celular
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Correos electrónicos</h4>
+                  <p>
+                    <a href="mailto:kairostrans@hotmail.com"
+                      >kairostrans@hotmail.com</a
+                    ><br />
+                    <a href="mailto:kairostran@yahoo.com.ar"
+                      >kairostran@yahoo.com.ar</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <iframe
+        id="map-canvas"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5673843786573!2d-58.53858492426673!3d-34.62833727294561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9f4e9c8b0c7%3A0x9c6c9c5c5c5c5c5c!2sPedro%20Jos%C3%A9%20Luis%20Zavatarro%204045%2C%20Santos%20Lugares%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1706817600000!5m2!1ses!2sar"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="footer-content">
+              <img
+                src="img/logos/logo-conjunto-white.png"
+                alt="Kairos Transportes"
+                class="footer-logo mb-4"
+              />
+              <p class="footer-text">
+                Los años y experiencia avalan nuestros servicios y conocimientos
+                del transporte de pasajeros en todos sus espectros. Habiendo
+                trabajado, y trabajando con Sindicatos, ONGs, Municipios,
+                Operadores Turísticos, Estudiantiles entre otros. Esperamos que
+                tenga la posibilidad de conocernos, comprobarlo y crear un
+                vínculo de trabajo ameno y fructífero, tanto para Uds. como para
+                Nosotros, y ante cualquier consulta o inquietud no dude en
+                comunicarse que estaremos a su entera disposición. Desde ya le
+                agradecemos por tenernos en cuenta.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="footer-bottom">
+              <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+              >
+                <div class="copyright mb-3 mb-md-0">
+                  <strong>&copy; 2025 www.KairosTrans.com.ar</strong>
+                </div>
+                <div class="developer">
+                  <a
+                    href="http://advansys.com.ar/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="img/logos/advansys.png"
+                      alt="AdvanSys"
+                      class="developer-logo"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div id="back-to-top">
+      <a href="#slider" aria-label="Volver arriba">
+        <i class="bi bi-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Unit Modals -->
+    <!-- Modal Unit 15 -->
+    <div
+      class="modal fade"
+      id="unitModal15"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel15"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel15">Bus Interno 15</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 60 pax | 12 asientos cama en el
+                  piso inferior - 48 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Volvo B450R</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 230 -->
+    <div
+      class="modal fade"
+      id="unitModal230"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel230"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel230">Bus Interno 230</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Mercedes Benz O-500 RSD</li>
+                <li><strong>Carrocería:</strong> Sudamericana</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 240 -->
+    <div
+      class="modal fade"
+      id="unitModal240"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel240"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel240">Bus Interno 240</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Mercedes Benz O-500 RSD</li>
+                <li><strong>Carrocería:</strong> Sudamericana</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 260 -->
+    <div
+      class="modal fade"
+      id="unitModal260"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel260"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel260">Bus Interno 260</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K420</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 270 -->
+    <div
+      class="modal fade"
+      id="unitModal270"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel270"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel270">Bus Interno 270</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K420</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 280 -->
+    <div
+      class="modal fade"
+      id="unitModal280"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel280"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel280">Bus Interno 280</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K380</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 290 -->
+    <div
+      class="modal fade"
+      id="unitModal290"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel290"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel290">Bus Interno 290</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K380</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 300 -->
+    <div
+      class="modal fade"
+      id="unitModal300"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel300"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel300">Bus Interno 300</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K380</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 310 -->
+    <div
+      class="modal fade"
+      id="unitModal310"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel310"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel310">Bus Interno 310</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 58 pax | 12 asientos cama en el
+                  piso inferior - 46 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Mercedes Benz O-500RSD</li>
+                <li><strong>Carrocería:</strong> Marcopolo G7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 320 -->
+    <div
+      class="modal fade"
+      id="unitModal320"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel320"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel320">Bus Interno 320</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - semi-cama</li>
+                <li><strong>Capacidad:</strong> 62 pax</li>
+                <li><strong>Marca:</strong> Scania K380</li>
+                <li><strong>Carrocería:</strong> Troyano Calixto</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 330 -->
+    <div
+      class="modal fade"
+      id="unitModal330"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel330"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel330">Bus Interno 330</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 60 pax | 12 asientos cama en el
+                  piso inferior - 48 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Volvo B430R 6x2</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 340 -->
+    <div
+      class="modal fade"
+      id="unitModal340"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel340"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel340">Bus Interno 340</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 60 pax | 12 asientos cama en el
+                  piso inferior - 48 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Volvo B430R 6x2</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 350 -->
+    <div
+      class="modal fade"
+      id="unitModal350"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel350"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel350">Bus Interno 350</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 60 pax | 12 asientos cama en el
+                  piso inferior - 48 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Mercedes Benz O500 RSD</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Unit 360 -->
+    <div
+      class="modal fade"
+      id="unitModal360"
+      tabindex="-1"
+      aria-labelledby="unitModalLabel360"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unitModalLabel360">Bus Interno 360</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="unit-details">
+              <h6>Detalles de la Unidad</h6>
+              <ul class="unit-specs">
+                <li><strong>Tipo:</strong> Doble piso - Mix</li>
+                <li>
+                  <strong>Capacidad:</strong> 60 pax | 12 asientos cama en el
+                  piso inferior - 48 asientos semi-cama en el piso superior
+                </li>
+                <li><strong>Marca:</strong> Mercedes Benz O500 RSD</li>
+                <li><strong>Carrocería:</strong> Metalsur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
