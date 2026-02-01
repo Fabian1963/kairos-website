@@ -2,6 +2,18 @@
    KAIROS TRANSPORTES - JavaScript Principal
    ===================================================== */
 
+// =====================================================
+// PRELOADER
+// =====================================================
+window.addEventListener('load', function () {
+  const preloader = document.getElementById('preloader');
+  if (preloader) {
+    setTimeout(() => {
+      preloader.classList.add('loaded');
+    }, 500);
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function () {
 
   // =====================================================
